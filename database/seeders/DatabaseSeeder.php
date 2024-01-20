@@ -12,11 +12,18 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // \App\Models\User::factory(10)->create();
-
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+        $this->call(UserSeeder::class);
+        $this->call(AdminSeeder::class);
+        $this->call(CorperSeeder::class);
+        $this->call(PostCategorySeeder::class);
+        $this->call(PostSeeder::class);
+        $this->call(HouseAgentSeeder::class);
+        $this->call(CategorySeeder::class);
+        $this->call(FavoriteSeeder::class);
+        $this->call(HouseSeeder::class);
+        $this->call(ItemSeeder::class);
+        $this->call(PostCommentSeeder::class);
+        $this->call(RentalSeeder::class);
     }
 }
+ 

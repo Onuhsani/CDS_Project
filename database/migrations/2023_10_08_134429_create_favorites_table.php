@@ -13,6 +13,13 @@ return new class extends Migration
     {
         Schema::create('favorites', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('corper_id')->index();
+            $table->foreign('corper_id')->on('corpers')->references('id')->cascadeOnDelete();
+            $table->foreignId('house_id')->index()->nullable();
+            $table->foreign('house_id')->on('houses')->references('id')->cascadeOnDelete();
+            $table->foreignId('item_id')->index()->nullable();
+            $table->foreign('item_id')->on('items')->references('id')->cascadeOnDelete();
+            $table->string('status')->nullable(); //deleted or active
             $table->timestamps();
         });
     }

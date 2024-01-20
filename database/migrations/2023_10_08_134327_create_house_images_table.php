@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('house_images', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('house_id')->index();
+            $table->foreign('house_id')->on('houses')->references('id')->cascadeOnDelete();
+            $table->string('image_url');
+            $table->string('status')->nullable(); //deleted or active
             $table->timestamps();
         });
     }

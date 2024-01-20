@@ -26,17 +26,16 @@
             </div>
             <div class="w-body-a">
               <p class="w-text-a color-text-a">
-                Enim minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat duis
-                sed aute irure.
+                This Site is aimed at connecting agents to corpers to ease the renting of houses within Lafia. The site will also allow corpers to post their old house old items for the new corpers to buy
               </p>
             </div>
             <div class="w-footer-a">
               <ul class="list-unstyled">
                 <li class="color-a">
-                  <span class="color-text-a">Phone .</span> contact@example.com
+                  <span class="color-text-a">Phone .</span> dob_cds_project@example.com
                 </li>
                 <li class="color-a">
-                  <span class="color-text-a">Email .</span> +54 356 945234
+                  <span class="color-text-a">Email .</span> +234 700 0000 000
                 </li>
               </ul>
             </div>
@@ -45,28 +44,19 @@
         <div class="col-sm-12 col-md-4 section-md-t3">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand">The Company</h3>
+              <h3 class="w-title-a text-brand">Quick Links</h3>
             </div>
             <div class="w-body-a">
               <div class="w-body-a">
                 <ul class="list-unstyled">
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">Site Map</a>
+                    <i class="bi bi-chevron-right"></i> <a href="#">Contact Us</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">Legal</a>
+                    <i class="bi bi-chevron-right"></i> <a href="#">About</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">Agent Admin</a>
-                  </li>
-                  <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">Careers</a>
-                  </li>
-                  <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">Affiliate</a>
-                  </li>
-                  <li class="item-list-a">
-                    <i class="bi bi-chevron-right"></i> <a href="#">Privacy Policy</a>
+                    <i class="bi bi-chevron-right"></i> <a href="#">Blog</a>
                   </li>
                 </ul>
               </div>
@@ -76,28 +66,32 @@
         <div class="col-sm-12 col-md-4 section-md-t3">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand">International sites</h3>
+              <h3 class="w-title-a text-brand">Follow Us</h3>
             </div>
             <div class="w-body-a">
               <ul class="list-unstyled">
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="#">Venezuela</a>
+                  <i class="bi bi-facebook"></i> <a href="#">Facebook</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="#">China</a>
+                  <i class="bi bi-instagram"></i> <a href="#">Instagram</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="#">Hong Kong</a>
+                  <i class="bi bi-twitter"></i> <a href="#">Twitter(X)</a>
                 </li>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="#">Argentina</a>
-                </li>
+                  <i class="bi bi-linkedin"></i> <a href="#">LinkedIn</a>
+                </li><br>
                 <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="#">Singapore</a>
+                  <form method="post">
+                    <div class="w-header-a">
+                      <h3 class="w-title-a text-brand">Subscribe</h3>
+                    </div>
+                    <input type="text" name="sub" placeholder="Enter email" />
+                    <input type="button" id="submit" value="Submit"/>
+                  </form>
                 </li>
-                <li class="item-list-a">
-                  <i class="bi bi-chevron-right"></i> <a href="#">Philippines</a>
-                </li>
+
               </ul>
             </div>
           </div>
@@ -116,9 +110,6 @@
               </li>
               <li class="list-inline-item">
                 <a href="#">About</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Property</a>
               </li>
               <li class="list-inline-item">
                 <a href="#">Blog</a>
@@ -155,7 +146,7 @@
           <div class="copyright-footer">
             <p class="copyright color-text-a">
               &copy; Copyright
-              <span class="color-a">DigitalOnBoardersNasarawa</span> All Rights Reserved.
+              <span class="color-a">DOB_CDS Lafia.</span> All Rights Reserved.
             </p>
           </div>
           <div class="credits">

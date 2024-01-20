@@ -13,6 +13,12 @@ return new class extends Migration
     {
         Schema::create('rentals', function (Blueprint $table) {
             $table->id();
+            $table->string('category'); //shop, Office suite, Garage and others
+            $table->string('specification')->nullable(); //incase it is neither shop, office or garage 
+            $table->string('description');
+            $table->string('location');
+            $table->string('price');
+            $table->boolean('negotiable')->default('1');
             $table->timestamps();
         });
     }

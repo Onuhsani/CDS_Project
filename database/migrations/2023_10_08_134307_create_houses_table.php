@@ -13,6 +13,14 @@ return new class extends Migration
     {
         Schema::create('houses', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('agent_id')->index();
+            $table->foreign('agent_id')->on('house_agents')->references('id')->cascadeOnDelete();
+            $table->string('location')->default('lafia');
+            $table->text('description'); //Single room or self contain
+            $table->string('rent_amount')->default('0');
+            $table->boolean('negotiable')->default('1');
+            $table->string('number_of_bedrooms');
+            $table->string('status')->nullable(); //deleted or active
             $table->timestamps();
         });
     }

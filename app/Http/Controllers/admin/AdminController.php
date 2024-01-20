@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\admin\Admin;
 use Illuminate\Http\Request;
 
 class AdminController extends Controller
@@ -12,7 +13,9 @@ class AdminController extends Controller
      */
     public function index()
     {
-        //
+        $admins = Admin::all();
+        $num = 0;
+        return view('admin.administrators', compact('admins', 'num'));
     }
 
     /**
@@ -20,7 +23,7 @@ class AdminController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.addadmin');
     }
 
     /**

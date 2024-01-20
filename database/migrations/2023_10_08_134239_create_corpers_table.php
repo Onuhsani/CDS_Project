@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('corpers', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id')->index();
+            $table->foreign('user_id')->on('users')->references('id')->cascadeOnDelete();
+            $table->string('state_of_service');
+            $table->string('batch_number');
+            $table->string('profile_picture')->nullable();
             $table->timestamps();
         });
     }
